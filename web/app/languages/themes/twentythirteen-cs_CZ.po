@@ -1,0 +1,381 @@
+# Translation of Themes - Twenty Thirteen in Czech
+# This file is distributed under the same license as the Themes - Twenty Thirteen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-16 11:54:39+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Themes - Twenty Thirteen\n"
+
+#. Description of the theme
+msgid "The 2013 theme for WordPress takes us back to the blog, featuring a full range of post formats, each displayed beautifully in their own unique way. Design details abound, starting with a vibrant color scheme and matching header images, beautiful typography and icons, and a flexible layout that looks great on any device, big or small."
+msgstr "Twenty Thirteen (2013) je výchozí šablona pro WordPress, která je určena zejména pro příznivce klasického blogování. Podporuje dostupné formáty příspěvků a pro každý z nich používá trochu odlišné zobrazení. Zaměřuje se na drobné grafické detaily, kontrastní barevné schéma a obsahuje příjemné fonty i speciální ikony. Unikátní vzhled je sladěn i s nabídkou výchozích obrázků pro záhlaví. Samozřejmostí je v dnešní době využití flexibilního designu, kdy dochází k automatickému přizpůsobování šablony podle velikosti použitého zařízení."
+
+#. Theme Name of the theme
+msgid "Twenty Thirteen"
+msgstr "Twenty Thirteen"
+
+#. translators: %s: The post title.
+#: comments.php:29
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "1 komentář u &bdquo;%s&ldquo;"
+
+#: functions.php:147
+msgid "Off-white"
+msgstr "Nažloutlá bílá"
+
+#: functions.php:142
+msgid "Beige"
+msgstr "Béžová"
+
+#: functions.php:137
+msgid "Light Brown"
+msgstr "Světle hnědá"
+
+#: functions.php:132
+msgid "Medium Brown"
+msgstr "Sytě hnědá"
+
+#: functions.php:127
+msgid "Dark Brown"
+msgstr "Tmavě hnědá"
+
+#: functions.php:122
+msgid "White"
+msgstr "Bílá"
+
+#: functions.php:117
+msgid "Yellow"
+msgstr "Žlutá"
+
+#: functions.php:112
+msgid "Light Orange"
+msgstr "Světle oranžová"
+
+#: functions.php:107
+msgid "Medium Orange"
+msgstr "Sytě oranžová"
+
+#: functions.php:102
+msgid "Red"
+msgstr "Červená"
+
+#: functions.php:97
+msgid "Dark Gray"
+msgstr "Tmavě šedá"
+
+#. translators: %s: Post format name.
+#: taxonomy-post_format.php:26
+msgid "%s Archives"
+msgstr "Archiv pro formát: %s"
+
+#. translators: Tag title.
+#: tag.php:24
+msgid "Tag Archives: %s"
+msgstr "Archiv štítku: %s"
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+#: inc/custom-header.php:60
+msgctxt "header image description"
+msgid "Star"
+msgstr "Hvězda"
+
+#: inc/custom-header.php:55
+msgctxt "header image description"
+msgid "Diamond"
+msgstr "Diamant"
+
+#: inc/custom-header.php:50
+msgctxt "header image description"
+msgid "Circle"
+msgstr "Kruh"
+
+#. translators: %s: WordPress version.
+#: inc/back-compat.php:38 inc/back-compat.php:50 inc/back-compat.php:67
+msgid "Twenty Thirteen requires at least WordPress version 3.6. You are running version %s. Please upgrade and try again."
+msgstr "Šablona Twenty Thirteen vyžaduje alespoň WordPress 3.6, zatímco aktuálně používáte starší verzi %s. Proveďte prosím nejdříve aktualizaci a potom to můžete zkusit znovu."
+
+#: image.php:63
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Další <span class=\"meta-nav\">&rarr;</span>"
+
+#: image.php:62
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Předchozí"
+
+#: image.php:50
+msgid "Full resolution"
+msgstr "Původní rozměry"
+
+#: image.php:49
+msgid "Link to full-size image"
+msgstr "Odkaz na původní velikost obrázku"
+
+#. translators: 1: Date, 2: Date, 3, Parent permalink, 4, Post title, 5: Post
+#. title.
+#: image.php:30
+msgid "<span class=\"attachment-meta\">Published on <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> in <a href=\"%3$s\" title=\"Go to %4$s\" rel=\"gallery\">%5$s</a></span>"
+msgstr "<span class=\"attachment-meta\">Publikováno <time class=\"entry-date\" datetime=\"%1$s\">%2$s</time> | Přiřazeno: <a href=\"%3$s\" title=\"Zpět na %4$s\" rel=\"gallery\">%5$s</a></span>"
+
+#: header.php:45
+msgid "Skip to content"
+msgstr "Přejít k obsahu webu"
+
+#: header.php:44
+msgid "Menu"
+msgstr "Menu"
+
+#. translators: %s: Post title.
+#: functions.php:534
+msgid "Permalink to %s"
+msgstr "Trvalý odkaz na %s"
+
+#. translators: 1: Post format name, 2: Date.
+#: functions.php:525
+msgctxt "1: post format name. 2: date"
+msgid "%1$s on %2$s"
+msgstr "%1$s (%2$s)"
+
+#. translators: %s: Author display name.
+#: functions.php:504
+msgid "View all posts by %s"
+msgstr "Zobrazit všechny příspěvky, jejichž autorem je %s"
+
+#. translators: Used between list items, there is a space after the comma.
+#: functions.php:487 functions.php:493
+msgid ", "
+msgstr ", "
+
+#: functions.php:479
+msgid "Sticky"
+msgstr "Zvýrazněný"
+
+#: functions.php:461
+msgctxt "Next post link"
+msgid "%title <span class=\"meta-nav\">&rarr;</span>"
+msgstr "%title <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:460
+msgctxt "Previous post link"
+msgid "<span class=\"meta-nav\">&larr;</span> %title"
+msgstr "<span class=\"meta-nav\">&larr;</span> %title"
+
+#: functions.php:457
+msgid "Post navigation"
+msgstr "Navigace pro příspěvky"
+
+#: functions.php:430
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novější příspěvky <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:426
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starší příspěvky"
+
+#: functions.php:422
+msgid "Posts navigation"
+msgstr "Navigace pro příspěvky"
+
+#: functions.php:397
+msgid "Appears on posts and pages in the sidebar."
+msgstr "Vedlejší oblast pro umístění widgetů, které se budou zobrazovat v pravém postranním panelu."
+
+#: functions.php:395
+msgid "Secondary Widget Area"
+msgstr "Dolní část postranního panelu"
+
+#: functions.php:385
+msgid "Appears in the footer section of the site."
+msgstr "Hlavní oblast pro umístění widgetů, které se budou zobrazovat v zápatí webu."
+
+#: functions.php:383
+msgid "Main Widget Area"
+msgstr "Zápatí"
+
+#. translators: %s: Page number.
+#: functions.php:368
+msgid "Page %s"
+msgstr "Stránky %s"
+
+#: functions.php:235
+msgctxt "Bitter font: on or off"
+msgid "on"
+msgstr "off"
+
+#: functions.php:229
+msgctxt "Source Sans Pro font: on or off"
+msgid "on"
+msgstr "on"
+
+#: functions.php:195
+msgid "Navigation Menu"
+msgstr "Navigační menu"
+
+#. translators: %s: WordPress
+#: footer.php:27
+msgid "Proudly powered by %s"
+msgstr "Používáme %s (v češtině)."
+
+#: content-none.php:32
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "Patrně jste chtěli na webu zobrazit něco, co se zde bohužel nenachází. Můžete ale ještě zkusit vyhledávání pomocí zadaného klíčového slova."
+
+#: content-none.php:27
+msgid "Sorry, but nothing matched your search terms. Please try again with different keywords."
+msgstr "Omlouváme se, ale hledaný výraz nebyl na webu nalezen. Zkuste to prosím znovu s nějakým jiným klíčovým slovem."
+
+#. translators: %s: Post editor URL.
+#: content-none.php:21
+msgid "Ready to publish your first post? <a href=\"%s\">Get started here</a>."
+msgstr "Jste připraveni publikovat svůj první příspěvek? <a href=\"%s\">Začněte zde</a>."
+
+#: content-none.php:12
+msgid "Nothing Found"
+msgstr "Nenalezeno"
+
+#: content-image.php:48 content-gallery.php:52 content.php:65
+#: content-video.php:48 content-quote.php:38
+msgid "View all % comments"
+msgstr "Zobrazit % komentáře"
+
+#: content-image.php:48 content-gallery.php:52 content.php:65
+#: content-video.php:48 content-quote.php:38
+msgid "One comment so far"
+msgstr "Zatím pouze jeden komentář"
+
+#: content-image.php:48 content-gallery.php:52 content.php:65
+#: content-video.php:48 content-quote.php:38
+msgid "Leave a comment"
+msgstr "Napsat komentář"
+
+#: content-image.php:51 content-gallery.php:55 content.php:31
+#: content-video.php:51 content-audio.php:47 image.php:55 content-status.php:35
+#: page.php:51 content-chat.php:45 content-quote.php:41 content-aside.php:36
+#: content-aside.php:44 content-link.php:19
+msgid "Edit"
+msgstr "Upravit"
+
+#: content-image.php:34 content-gallery.php:35 content.php:52
+#: content-video.php:34 content-audio.php:35 image.php:84 content-status.php:24
+#: page.php:41 content-chat.php:34 content-quote.php:24 content-aside.php:24
+#: content-link.php:35
+msgid "Pages:"
+msgstr "Stránky:"
+
+#. translators: %s: Post title.
+#: content-image.php:27 functions.php:648 content-gallery.php:28 content.php:45
+#: content-video.php:27 content-audio.php:28 content-status.php:17
+#: content-chat.php:27 content-quote.php:17 content-aside.php:17
+#: content-link.php:28
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Pokračování textu %s <span class=\"meta-nav\">&rarr;</span>"
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "Komentáře nejsou povoleny."
+
+#: comments.php:62
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+#: comments.php:61
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+#: comments.php:60
+msgid "Comment navigation"
+msgstr "Navigace pro komentáře"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:35
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentář u &bdquo;%2$s&ldquo;"
+msgstr[1] "%1$s komentáře u &bdquo;%2$s&ldquo;"
+msgstr[2] "%1$s komentářů u &bdquo;%2$s&ldquo;"
+
+#. translators: %s: Category title.
+#: category.php:22
+msgid "Category Archives: %s"
+msgstr "Archiv rubriky: %s"
+
+#. translators: %s: Author display name.
+#: author.php:34
+msgid "All posts by %s"
+msgstr "Archiv autora: %s"
+
+#. translators: %s: Author display name.
+#: author-bio.php:37
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Zobrazit všechny příspěvky, jejichž autorem je %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: %s: Author display name.
+#: author-bio.php:29
+msgid "About %s"
+msgstr "Autor: %s"
+
+#: archive.php:39
+msgid "Archives"
+msgstr "Archiv"
+
+#. translators: %s: Date.
+#: archive.php:37
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: Date.
+#: archive.php:37
+msgid "Yearly Archives: %s"
+msgstr "Archiv pro rok: %s"
+
+#. translators: %s: Date.
+#: archive.php:34
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: %s: Date.
+#: archive.php:34
+msgid "Monthly Archives: %s"
+msgstr "Archiv pro měsíc: %s"
+
+#. translators: %s: Date.
+#: archive.php:31
+msgid "Daily Archives: %s"
+msgstr "Archiv pro den: %s"
+
+#: 404.php:22
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "Patrně jste chtěli zobrazit stránku, která se na webu bohužel nenachází. Můžete ale zkusit vyhledávání pomocí zadaného klíčového slova."
+
+#: 404.php:21
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Omlouváme se, ale došlo k poněkud nepříjemné situaci."
+
+#: 404.php:16
+msgid "Not Found"
+msgstr "Nenalezeno"
+
+#. Author URI of the theme
+#: footer.php:24
+msgid "https://wordpress.org/"
+msgstr "https://cs.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "Vývojáři WordPressu (a překladatelé)"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentythirteen/"
+msgstr "https://wordpress.org/themes/twentythirteen/"

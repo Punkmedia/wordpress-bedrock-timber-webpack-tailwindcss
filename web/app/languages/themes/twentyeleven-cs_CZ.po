@@ -1,0 +1,664 @@
+# Translation of Themes - Twenty Eleven in Czech
+# This file is distributed under the same license as the Themes - Twenty Eleven package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-01-04 21:25:56+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Themes - Twenty Eleven\n"
+
+#. Description of the theme
+msgid "The 2011 theme for WordPress is sophisticated, lightweight, and adaptable. Make it yours with a custom menu, header image, and background -- then go further with available theme options for light or dark color scheme, custom link colors, and three layout choices. Twenty Eleven comes equipped with a Showcase page template that transforms your front page into a showcase to show off your best content, widget support galore (sidebar, three footer areas, and a Showcase page widget area), and a custom \"Ephemera\" widget to display your Aside, Link, Quote, or Status posts. Included are styles for print and for the admin editor, support for featured images (as custom header images on posts and pages and as large images on featured \"sticky\" posts), and special styles for six different post formats."
+msgstr "Twenty Eleven (2011) je propracovaná a snadno upravitelná šablona pro WordPress, která je ale zároveň velmi jednoduchá a graficky čistá. S její pomocí můžete snadno vytvářet vlastní menu a upravovat záhlaví a pozadí webu. Rozšířené možnosti nastavení umožňují ještě volbu barevného schématu, barvy odkazů a základního uspořádání webu. Twenty Eleven obsahuje i speciální šablonu pro stránky s názvem \"Aktuální přehled webu\", kterou lze použít třeba i pro úvodní stránku, protože přehledně zobrazuje nejnovější a nejdůležitější obsah webu. V šabloně je definováno celkem 5 oblastí pro widgety (hlavní postranní panel, 3 sloupce dole v zápatí a jeden speciální postranní panel určený pouze pro stránky se šablonou \"Aktuální přehled webu\") a využít můžete i speciální widget, který je určen pro zobrazování nejnovějších stručných příspěvků (omezeno na formáty Poznámka, Stav, Citace a Odkaz). Podporovány jsou samozřejmě také náhledové obrázky, které jsou zobrazovány v podobě velkých obrázků u doporučených (zvýrazněných) příspěvků a jako záhlaví u jednotlivých stránek a příspěvků. Šablona obsahuje také definice kaskádových stylů pro tisk a vizuální editor a podporuje celkem šest různých formátů příspěvků."
+
+#. Theme Name of the theme
+msgid "Twenty Eleven"
+msgstr "Twenty Eleven"
+
+#: functions.php:752
+msgid "Your comment is awaiting moderation. This is a preview; your comment will be visible after it has been approved."
+msgstr "Váš komentář čeká na schválení. Toto je náhled, váš komentář bude viditelný až po schválení."
+
+#: inc/theme-options.php:121
+msgid "<a href=\"https://wordpress.org/support/article/appearance-customize-screen/\" target=\"_blank\">Documentation on Theme Options</a>"
+msgstr "<a href=\"https://wordpress.org/support/article/appearance-customize-screen/\" target=\"_blank\">Dokumentace k nastavení šablony</a>"
+
+#. translators: %s: The post title.
+#: comments.php:37
+msgid "One thought on &ldquo;%1$s&rdquo;"
+msgstr "1 komentář u &bdquo;%1$s&ldquo;"
+
+#: functions.php:127
+msgid "White"
+msgstr "Bílá"
+
+#: functions.php:122
+msgid "Light Gray"
+msgstr "Světle šedá"
+
+#: functions.php:117
+msgid "Medium Gray"
+msgstr "Středně šedá"
+
+#: functions.php:112
+msgid "Dark Gray"
+msgstr "Tmavě šedá"
+
+#: functions.php:107
+msgid "Black"
+msgstr "Černá"
+
+#: functions.php:102
+msgid "Blue"
+msgstr "Modrá"
+
+#. Template Name of the theme
+msgid "Sidebar Template"
+msgstr "Stránka s postranním panelem"
+
+#. Template Name of the theme
+msgid "Showcase Template"
+msgstr "Aktuální přehled webu"
+
+#. translators: %s: Tag title.
+#: tag.php:21
+msgid "Tag Archives: %s"
+msgstr "Archiv štítku: %s"
+
+#: single.php:23
+msgid "Next <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Další <span class=\"meta-nav\">&rarr;</span>"
+
+#: single.php:22
+msgid "<span class=\"meta-nav\">&larr;</span> Previous"
+msgstr "<span class=\"meta-nav\">&larr;</span> Předchozí"
+
+#: sidebar.php:26
+msgid "Meta"
+msgstr "Základní informace"
+
+#: sidebar.php:19
+msgid "Archives"
+msgstr "Archiv"
+
+#: showcase.php:176
+msgid "Recent Posts"
+msgstr "Nejnovější příspěvky"
+
+#. translators: %s: Post title.
+#: showcase.php:164
+msgid "Featuring: %s"
+msgstr "Doporučujeme: %s"
+
+#: showcase.php:83
+msgid "Featured Post"
+msgstr "Doporučujeme"
+
+#: searchform.php:11 searchform.php:12 searchform.php:13
+msgid "Search"
+msgstr "Hledat"
+
+#: search.php:56
+msgid "Sorry, but nothing matched your search criteria. Please try again with some different keywords."
+msgstr "Omlouváme se, ale hledaný výraz nebyl na webu nalezen. Zkuste to prosím znovu s nějakým jiným klíčovým slovem."
+
+#. translators: %s: Search query.
+#: search.php:21
+msgid "Search Results for: %s"
+msgstr "Výsledky vyhledávání pro: %s"
+
+#: inc/widgets.php:198
+msgid "Number of posts to show:"
+msgstr "Počet zobrazených příspěvků:"
+
+#: inc/widgets.php:195
+msgid "Title:"
+msgstr "Název:"
+
+#: inc/widgets.php:119 inc/widgets.php:128
+msgid "% <span class=\"reply\">comments &rarr;</span>"
+msgstr "% <span class=\"reply\">komentářů &rarr;</span>"
+
+#: inc/widgets.php:119 inc/widgets.php:128
+msgid "1 <span class=\"reply\">comment &rarr;</span>"
+msgstr "1 <span class=\"reply\">komentář &rarr;</span>"
+
+#: inc/widgets.php:119 inc/widgets.php:128
+msgid "0 <span class=\"reply\">comments &rarr;</span>"
+msgstr "Žádný <span class=\"reply\">komentář &rarr;</span>"
+
+#: inc/widgets.php:74
+msgid "Ephemera"
+msgstr "Stručně"
+
+#: inc/widgets.php:23
+msgid "Twenty Eleven Ephemera"
+msgstr "Twenty Eleven - Stručně"
+
+#: inc/widgets.php:26
+msgid "Use this widget to list your recent Aside, Status, Quote, and Link posts"
+msgstr "Speciální widget pro zobrazení nejnovějších stručných příspěvků (omezeno na formáty Poznámka, Stav, Citace a Odkaz)"
+
+#: inc/theme-options.php:612
+msgid "Layout"
+msgstr "Grafické rozvržení"
+
+#. translators: %s: Theme name.
+#: inc/theme-options.php:349
+msgid "%s Theme Options"
+msgstr "Rozšířené možnosti nastavení šablony %s"
+
+#. translators: %s: Link color.
+#: inc/theme-options.php:308
+msgid "Default color: %s"
+msgstr "Výchozí barva: %s"
+
+#: inc/theme-options.php:302
+msgid "Select a Color"
+msgstr "Vybrat barvu"
+
+#: inc/theme-options.php:193
+msgid "One-column, no sidebar"
+msgstr "Bez postranního panelu, pouze jeden sloupec s obsahem webu"
+
+#: inc/theme-options.php:188
+msgid "Content on right"
+msgstr "Postranní panel bude v levé části webu"
+
+#: inc/theme-options.php:183
+msgid "Content on left"
+msgstr "Postranní panel bude v pravé části webu"
+
+#: inc/theme-options.php:158
+msgid "Dark"
+msgstr "Tmavá"
+
+#: inc/theme-options.php:152
+msgid "Light"
+msgstr "Světlá"
+
+#: inc/theme-options.php:130
+msgid "Overview"
+msgstr "Obecný přehled"
+
+#: inc/theme-options.php:122
+msgid "<a href=\"https://wordpress.org/support/\" target=\"_blank\">Support</a>"
+msgstr "Fórum podpory (<a href=\"https://cs.wordpress.org/podpora/\" target=\"_blank\">česky</a> - <a href=\"http://wordpress.org/support/\" target=\"_blank\">anglicky</a>)"
+
+#: inc/theme-options.php:120
+msgid "For more information:"
+msgstr "Další informace:"
+
+#: inc/theme-options.php:118
+msgid "Remember to click \"Save Changes\" to save any changes you have made to the theme options."
+msgstr "Nezapomeňte také dole na obrazovce kliknout na tlačítko &#8222;Uložit změny&#8220;, aby byly provedené úpravy nastavení šablony uloženy a mohly se projevit na webu."
+
+#: inc/theme-options.php:116
+msgid "<strong>Default Layout</strong>: You can choose if you want your site&#8217;s default layout to have a sidebar on the left, the right, or not at all."
+msgstr "<strong>Základní uspořádání</strong>: Nakonec můžete ještě změnit výchozí rozmístění základních částí webu, a to přesunutím postranního panelu vlevo nebo i jeho odebráním."
+
+#: inc/theme-options.php:115
+msgid "<strong>Link Color</strong>: You can choose the color used for text links on your site. You can enter the HTML color or hex code, or you can choose visually by clicking the \"Select a Color\" button to pick from a color wheel."
+msgstr "<strong>Barva odkazů</strong>: Další možnost spočívá ve výběru barvy pro textové odkazy na webu. Můžete buď ručně zadat příslušný hexadecimální kód požadované barvy nebo stačí kliknout na tlačítko &#8222;Vybrat barvu&#8220; a konkrétní barvu si pak už jednoduše vyberete z široké nabídky přehledného barevného kolečka."
+
+#: inc/theme-options.php:114
+msgid "<strong>Color Scheme</strong>: You can choose a color palette of \"Light\" (light background with dark text) or \"Dark\" (dark background with light text) for your site."
+msgstr "<strong>Barevné schéma</strong>: Můžete si vybrat základní barevné schéma webu: &#8222;Světlé&#8220; (světlé pozadí s tmavým textem) nebo naopak &#8222;Tmavé&#8220; (tmavé pozadí se světlým textem)."
+
+#: inc/theme-options.php:112
+msgid "Some themes provide customization options that are grouped together on a Theme Options screen. If you change themes, options may change or disappear, as they are theme-specific. Your current theme, Twenty Eleven, provides the following Theme Options:"
+msgstr "Autoři některých šablon umožňují uživatelům jednoduše upravovat různá rozšířená nastavení, která obvykle naleznete na speciální stránce v administraci (menu Vzhled - Nastavení šablony). Pokud se ale časem rozhodnete používanou šablonu změnit, tak budou u nové šablony všechny dosud provedené úpravy nastavení chybět, protože jsou přímou součástí konkrétní šablony a nepřenáší se na jinou. Aktuálně používaná výchozí šablona Twenty Eleven nabízí následující rozšířené možnosti nastavení:"
+
+#: inc/theme-options.php:95 inc/theme-options.php:96
+msgid "Theme Options"
+msgstr "Rozšířené možnosti nastavení"
+
+#: inc/theme-options.php:63
+msgid "Default Layout"
+msgstr "Základní uspořádání"
+
+#: inc/theme-options.php:62 inc/theme-options.php:601
+msgid "Link Color"
+msgstr "Barva odkazů"
+
+#: inc/theme-options.php:56 inc/theme-options.php:576
+msgid "Color Scheme"
+msgstr "Barevné schéma"
+
+#. translators: 1: Time, 2: Date, 3: Image permalink, 4: Image width, 5: Image
+#. height, 6: Parent permalink, 7: Parent post title, 8: Parent post title.
+#: image.php:35
+msgid "<span class=\"meta-prep meta-prep-entry-date\">Published </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> at <a href=\"%3$s\" title=\"Link to full-size image\">%4$s &times; %5$s</a> in <a href=\"%6$s\" title=\"Go to %7$s\" rel=\"gallery\">%8$s</a>"
+msgstr "<span class=\"meta-prep meta-prep-entry-date\">Publikováno: </span> <span class=\"entry-date\"><abbr class=\"published\" title=\"%1$s\">%2$s</abbr></span> | Velikost: <a href=\"%3$s\" title=\"Odkaz na původní velikost obrázku\">%4$s &times; %5$s</a> | Přiřazeno: <a href=\"%6$s\" title=\"Zpět na %7$s\" rel=\"gallery\">%8$s</a>"
+
+#: image.php:23
+msgid "Next &rarr;"
+msgstr "Další &rarr;"
+
+#: image.php:22
+msgid "&larr; Previous"
+msgstr "&larr; Předchozí"
+
+#: image.php:21
+msgid "Image navigation"
+msgstr "Navigace pro obrázky"
+
+#: functions.php:925
+msgid "Skip to secondary content"
+msgstr "Přejít k obsahu postranního panelu"
+
+#: functions.php:923
+msgid "Skip to primary content"
+msgstr "Přejít k hlavnímu obsahu webu"
+
+#: header.php:148
+msgid "Main menu"
+msgstr "Hlavní navigační menu"
+
+#. translators: %s: Page number.
+#: header.php:46
+msgid "Page %s"
+msgstr "Stránky %s"
+
+#. translators: 1: The permalink, 2: Time, 3: Date and time, 4: Date and time,
+#. 5: Author posts, 6: Author post link text, 7: Author display name.
+#: functions.php:798
+msgid "<span class=\"sep\">Posted on </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+msgstr "<span class=\"sep\">Publikováno </span><a href=\"%1$s\" title=\"%2$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%3$s\">%4$s</time></a><span class=\"by-author\"> <span class=\"sep\"> | Autor: </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%5$s\" title=\"%6$s\" rel=\"author\">%7$s</a></span></span>"
+
+#: functions.php:771
+msgid "Reply <span>&darr;</span>"
+msgstr "Odpovědět <span>&darr;</span>"
+
+#: functions.php:750
+msgid "Your comment is awaiting moderation."
+msgstr "Komentář čeká na schválení."
+
+#. translators: 1: Date, 2: Time.
+#: functions.php:739
+msgid "%1$s at %2$s"
+msgstr "%1$s (%2$s)"
+
+#. translators: 1: Comment author, 2: Date and time.
+#: functions.php:732
+msgid "%1$s on %2$s <span class=\"says\">said:</span>"
+msgstr "%1$s (%2$s) <span class=\"says\">napsal:</span>"
+
+#: functions.php:712
+msgid "Pingback:"
+msgstr "Pingback:"
+
+#: functions.php:607
+msgid "Newer posts <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Novější příspěvky <span class=\"meta-nav\">&rarr;</span>"
+
+#: functions.php:606
+msgid "<span class=\"meta-nav\">&larr;</span> Older posts"
+msgstr "<span class=\"meta-nav\">&larr;</span> Starší příspěvky"
+
+#: functions.php:605 single.php:21
+msgid "Post navigation"
+msgstr "Navigace pro příspěvky"
+
+#: functions.php:579
+msgid "Footer Area Three"
+msgstr "Třetí sloupec zápatí"
+
+#: functions.php:567
+msgid "Footer Area Two"
+msgstr "Druhý sloupec zápatí"
+
+#: functions.php:557 functions.php:569 functions.php:581
+msgid "An optional widget area for your site footer"
+msgstr "Volitelná oblast pro umístění widgetů, které se budou zobrazovat v zápatí webu."
+
+#: functions.php:555
+msgid "Footer Area One"
+msgstr "První sloupec zápatí"
+
+#: functions.php:545
+msgid "The sidebar for the optional Showcase Template"
+msgstr "Postranní panel určený pro widgety, které se budou zobrazovat pouze na stránkách se zvolenou šablonou pro aktuální přehled webu."
+
+#: functions.php:543
+msgid "Showcase Sidebar"
+msgstr "Aktuální přehled webu"
+
+#: functions.php:532
+msgid "Main Sidebar"
+msgstr "Hlavní postranní panel"
+
+#. translators: Header image description.
+#: functions.php:280
+msgid "Hanoi Plant"
+msgstr "Hanojská rostlina"
+
+#. translators: Header image description.
+#: functions.php:274
+msgid "Willow"
+msgstr "Vrba"
+
+#. translators: Header image description.
+#: functions.php:268
+msgid "Lanterns"
+msgstr "Červené lucerny"
+
+#. translators: Header image description.
+#: functions.php:262
+msgid "Chessboard"
+msgstr "Šachovnice"
+
+#. translators: Header image description.
+#: functions.php:256
+msgid "Pine Cone"
+msgstr "Borovicová šiška"
+
+#. translators: Header image description.
+#: functions.php:250
+msgid "Trolley"
+msgstr "Tramvaj"
+
+#. translators: Header image description.
+#: functions.php:244
+msgid "Shore"
+msgstr "Skalnaté pobřeží"
+
+#. translators: Header image description.
+#: functions.php:238
+msgid "Wheel"
+msgstr "Kolo"
+
+#: functions.php:144
+msgid "Primary Menu"
+msgstr "Základní navigační menu"
+
+#. translators: %s: WordPress
+#: footer.php:37
+msgid "Proudly powered by %s"
+msgstr "Používáme %s (v češtině)."
+
+#: footer.php:34
+msgid "Semantic Personal Publishing Platform"
+msgstr "Sémantický osobní redakční systém"
+
+#: content.php:16
+msgid "Featured"
+msgstr "Doporučujeme"
+
+#: content-status.php:19
+msgid "Status"
+msgstr "Stav"
+
+#. translators: %s: Author name.
+#: content-single.php:90
+msgid "View all posts by %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Zobrazit všechny příspěvky, jejichž autorem je %s <span class=\"meta-nav\">&rarr;</span>"
+
+#. translators: 1: Categories list, 2: Tag list, 3: Permalink, 4: Post title,
+#. 5: Author name, 6: Author URL.
+#: content-single.php:50
+msgid "This entry was posted by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Autorem publikovaného příspěvku je <a href=\"%6$s\">%5$s</a>. Můžete si jeho <a href=\"%3$s\" title=\"Trvalý odkaz na %4$s\" rel=\"bookmark\">odkaz</a> uložit mezi své oblíbené záložky nebo ho sdílet s přáteli."
+
+#. translators: 1: Categories list, 2: Tag list, 3: Permalink, 4: Post title,
+#. 5: Author name, 6: Author URL.
+#: content-single.php:47
+msgid "This entry was posted in %1$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Příspěvek byl publikován v rubrice %1$s a jeho autorem je <a href=\"%6$s\">%5$s</a>. Můžete si jeho <a href=\"%3$s\" title=\"Trvalý odkaz na %4$s\" rel=\"bookmark\">odkaz</a> uložit mezi své oblíbené záložky nebo ho sdílet s přáteli."
+
+#. translators: 1: Categories list, 2: Tag list, 3: Permalink, 4: Post title,
+#. 5: Author name, 6: Author URL.
+#: content-single.php:44
+msgid "This entry was posted in %1$s and tagged %2$s by <a href=\"%6$s\">%5$s</a>. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Příspěvek byl publikován v rubrice %1$s se štítky %2$s a jeho autorem je <a href=\"%6$s\">%5$s</a>. Můžete si jeho <a href=\"%3$s\" title=\"Trvalý odkaz na %4$s\" rel=\"bookmark\">odkaz</a> uložit mezi své oblíbené záložky nebo ho sdílet s přáteli."
+
+#: content-quote.php:15
+msgid "Quote"
+msgstr "Citace"
+
+#: content-link.php:19
+msgid "Link"
+msgstr "Odkaz"
+
+#. translators: %s: Author display name.
+#: content-image.php:51 functions.php:805
+msgid "View all posts by %s"
+msgstr "Zobrazit všechny příspěvky, jejichž autorem je %s"
+
+#. translators: 1: The permalink, 2: Date and time, 3: Date and time, 4: Author
+#. link, 5: Author link title, 6: Author display name.
+#: content-image.php:45
+msgid "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> by </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+msgstr "<a href=\"%1$s\" rel=\"bookmark\"><time class=\"entry-date\" datetime=\"%2$s\">%3$s</time></a><span class=\"by-author\"> <span class=\"sep\"> | Autor: </span> <span class=\"author vcard\"><a class=\"url fn n\" href=\"%4$s\" title=\"%5$s\" rel=\"author\">%6$s</a></span></span>"
+
+#: content-image.php:18
+msgid "Image"
+msgstr "Obrázek"
+
+#. translators: 1: CSS classes, 2: List of tags.
+#. translators: 1: CSS classes, 2: Tag list.
+#: content-quote.php:77 content.php:86 content-image.php:80
+#: content-gallery.php:101
+msgid "<span class=\"%1$s\">Tagged</span> %2$s"
+msgstr "<span class=\"%1$s\">Štítky:</span> %2$s"
+
+#. translators: 1: CSS classes, 2: List of categories.
+#. translators: 1: CSS classes, 2: Category list.
+#: content-quote.php:59 content.php:66 content-image.php:66
+#: content-gallery.php:83
+msgid "<span class=\"%1$s\">Posted in</span> %2$s"
+msgstr "<span class=\"%1$s\">Rubriky:</span> %2$s"
+
+#. translators: %s: Post title.
+#: showcase.php:129 content-gallery.php:52
+msgid "Permalink to %s"
+msgstr "Trvalý odkaz na %s"
+
+#. translators: 1: Link attributes, 2: Number of photos.
+#: content-gallery.php:50
+msgid "This gallery contains <a %1$s>%2$s photo</a>."
+msgid_plural "This gallery contains <a %1$s>%2$s photos</a>."
+msgstr[0] "Galerie obsahuje pouze <a %1$s>%2$s obrázek</a>."
+msgstr[1] "Galerie obsahuje celkem <a %1$s>%2$s obrázky</a>."
+msgstr[2] "Galerie obsahuje celkem <a %1$s>%2$s obrázků</a>."
+
+#: content-gallery.php:19
+msgid "Gallery"
+msgstr "Galerie"
+
+#. translators: 1: Category list, 3: Post permalink, 4: Post title.
+#: content-featured.php:43
+msgid "This entry was posted in %1$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Příspěvek byl publikován v rubrice %1$s. Můžete si uložit jeho <a href=\"%3$s\" title=\"Trvalý odkaz pro %4$s\" rel=\"bookmark\">odkaz</a> mezi své oblíbené záložky."
+
+#. translators: 1: Category list, 2: Tag list, 3: Post permalink, 4: Post
+#. title.
+#: content-featured.php:40
+msgid "This entry was posted in %1$s and tagged %2$s. Bookmark the <a href=\"%3$s\" title=\"Permalink to %4$s\" rel=\"bookmark\">permalink</a>."
+msgstr "Příspěvek byl publikován v rubrice %1$s se štítky %2$s. Můžete si uložit jeho <a href=\"%3$s\" title=\"Trvalý odkaz pro %4$s\" rel=\"bookmark\">odkaz</a> mezi své oblíbené záložky."
+
+#. translators: Used between list items, there is a space after the comma.
+#: content-single.php:37 content-single.php:40 content-quote.php:52
+#: content-quote.php:67 content.php:59 content.php:76 content-image.php:59
+#: content-image.php:73 content-featured.php:36 content-featured.php:49
+#: content-gallery.php:76 content-gallery.php:91
+msgid ", "
+msgstr ", "
+
+#: content-single.php:64 content-status.php:66 content-quote.php:90
+#: content.php:100 content-image.php:90 image.php:46 content-page.php:28
+#: content-featured.php:56 content-link.php:53 functions.php:712
+#: functions.php:744 content-intro.php:26 content-gallery.php:114
+#: content-aside.php:53
+msgid "Edit"
+msgstr "Upravit"
+
+#: content-status.php:64 content-quote.php:87 content.php:97
+#: content-image.php:86 content-link.php:51 showcase.php:220
+#: content-gallery.php:111 content-aside.php:51
+msgid "<b>%</b> Replies"
+msgstr "<b>%</b> komentáře"
+
+#: content-status.php:64 content-quote.php:87 content.php:97
+#: content-image.php:86 content-link.php:51 showcase.php:220
+#: content-gallery.php:111 content-aside.php:51
+msgid "<b>1</b> Reply"
+msgstr "<b>1</b> komentář"
+
+#: content-status.php:64 content-quote.php:87 content.php:97
+#: content-image.php:86 content-link.php:51 showcase.php:220
+#: content-gallery.php:111 content-aside.php:51
+msgid "Leave a reply"
+msgstr "Napsat komentář"
+
+#: content-single.php:27 content-status.php:52 content-quote.php:39
+#: content.php:45 content-image.php:33 image.php:122 content-page.php:21
+#: content-featured.php:26 content-link.php:39 content-intro.php:21
+#: content-gallery.php:63 content-aside.php:39
+msgid "Pages:"
+msgstr "Stránky:"
+
+#: content-status.php:48 content-quote.php:35 content.php:41
+#: content-image.php:29 content-link.php:35 functions.php:459
+#: content-gallery.php:34 content-aside.php:35
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr "Celý příspěvek <span class=\"meta-nav\">&rarr;</span>"
+
+#: content-status.php:24 content-quote.php:24 content.php:30
+#: content-image.php:23 content-link.php:24 content-aside.php:24
+msgctxt "comments number"
+msgid "%"
+msgstr "%"
+
+#: content-status.php:24 content-quote.php:24 content.php:30
+#: content-image.php:23 content-link.php:24 content-aside.php:24
+msgctxt "comments number"
+msgid "1"
+msgstr "1"
+
+#: content-status.php:24 content-quote.php:24 content.php:30
+#: content-image.php:23 content-link.php:24 content-aside.php:24
+msgid "Reply"
+msgstr "Odpovědět"
+
+#: content-aside.php:19
+msgid "Aside"
+msgstr "Poznámka"
+
+#: comments.php:87
+msgid "Comments are closed."
+msgstr "Komentáře nejsou povoleny."
+
+#: comments.php:55 comments.php:76
+msgid "Newer Comments &rarr;"
+msgstr "Novější komentáře &rarr;"
+
+#: comments.php:54 comments.php:75
+msgid "&larr; Older Comments"
+msgstr "&larr; Starší komentáře"
+
+#: comments.php:53 comments.php:74
+msgid "Comment navigation"
+msgstr "Navigace pro komentáře"
+
+#. translators: %1$s: The number of comments. %2$s: The post title.
+#: comments.php:43
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "1 komentář u &bdquo;%2$s&ldquo;"
+msgstr[1] "%1$s komentáře u &bdquo;%2$s&ldquo;"
+msgstr[2] "%1$s komentářů u &bdquo;%2$s&ldquo;"
+
+#: comments.php:17
+msgid "This post is password protected. Enter the password to view any comments."
+msgstr "Tento příspěvek je chráněn heslem. Pokud chcete zobrazit jeho komentáře, zadejte prosím heslo."
+
+#. translators: %s: �ategory title.
+#: category.php:21
+msgid "Category Archives: %s"
+msgstr "Archiv rubriky: %s"
+
+#. translators: Author display name.
+#. translators: %s: Author name.
+#: author.php:70 content-single.php:82
+msgid "About %s"
+msgstr "Autor: %s"
+
+#. translators: %s: Author display name.
+#: author.php:32
+msgid "Author Archives: %s"
+msgstr "Archiv autora: %s"
+
+#: index.php:44 author.php:106 archive.php:71 tag.php:70 category.php:70
+msgid "Apologies, but no results were found for the requested archive. Perhaps searching will help find a related post."
+msgstr "Omlouváme se, ale pro vybraný archiv nebyl nalezen žádný příspěvek. Možná se vám ale podaří najít nějaký související příspěvek pomocí vyhledávání."
+
+#: index.php:40 author.php:102 archive.php:67 tag.php:66 category.php:66
+#: search.php:52
+msgid "Nothing Found"
+msgstr "Nenalezeno"
+
+#: archive.php:35
+msgid "Blog Archives"
+msgstr "Archiv"
+
+#. translators: %s: Date.
+#: archive.php:33
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "Y"
+
+#. translators: %s: Date.
+#: archive.php:33
+msgid "Yearly Archives: %s"
+msgstr "Archiv pro rok: %s"
+
+#. translators: %s: Date.
+#: archive.php:30
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "F Y"
+
+#. translators: %s: Date.
+#: archive.php:30
+msgid "Monthly Archives: %s"
+msgstr "Archiv pro měsíc: %s"
+
+#. translators: %s: Date.
+#: archive.php:27
+msgid "Daily Archives: %s"
+msgstr "Archiv pro den: %s"
+
+#. translators: %1$s: Smilie.
+#: 404.php:46
+msgid "Try looking in the monthly archives. %1$s"
+msgstr "Můžete chronologicky prohlížet měsíční archivy. %1$s"
+
+#: 404.php:28
+msgid "Most Used Categories"
+msgstr "Nejpoužívanější rubriky"
+
+#: 404.php:21
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching, or one of the links below, can help."
+msgstr "Bohužel jste patrně hledali něco, co se na webu nenachází. Můžete ale zkusit vyhledávání podle zadaného klíčového slova nebo třeba trochu napomůže i některý z odkazů uvedených níže."
+
+#: 404.php:17
+msgid "This is somewhat embarrassing, isn&rsquo;t it?"
+msgstr "Omlouváme se, ale došlo k poněkud nepříjemné situaci."
+
+#. Author URI of the theme
+#: footer.php:34
+msgid "https://wordpress.org/"
+msgstr "https://cs.wordpress.org/"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "Vývojáři WordPressu (a překladatelé)"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyeleven/"
+msgstr "https://wordpress.org/themes/twentyeleven/"

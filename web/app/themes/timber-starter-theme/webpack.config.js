@@ -4,11 +4,12 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 const { WebpackManifestPlugin } = require('webpack-manifest-plugin');
 const BrowserSyncPlugin = require('browser-sync-webpack-plugin')
+const WatchExternalFilesPlugin = require('webpack-watch-files-plugin').default
 
 module.exports = (env, argv) => {
     return {
         mode: 'development',
-        entry: './assets/index.js',
+        entry: ['./assets/js/main.js', './assets/scss/style.scss'],
         output: {
             path: path.resolve(__dirname, 'dist'),
             filename: '[name].[contenthash].js',
@@ -26,12 +27,19 @@ module.exports = (env, argv) => {
             }),
             new CleanWebpackPlugin({}),
             new WebpackManifestPlugin(),
+            new WatchExternalFilesPlugin({
+                files: [
+                    '/templates/**/*.twig',
+                    '/*.php'
+                ],
+                verbose: true
+            }),
             new BrowserSyncPlugin({
                 // browse to http://localhost:3000/ during development,
                 // ./public directory is being served
                 host: 'localhost',
                 port: 3000,
-                proxy: 'http://web-kalkulacka.local/'
+                proxy: 'http://web-kalkulacka.local/',
             })
         ],
         module: {
@@ -39,9 +47,7 @@ module.exports = (env, argv) => {
                 {
                     test: /\.s[ac]ss$/i,
                     use: [
-                        {
-                            loader: MiniCssExtractPlugin.loader,
-                        },
+                        MiniCssExtractPlugin.loader,
                         'css-loader',
                         {
                             loader: 'postcss-loader',
